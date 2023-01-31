@@ -1,0 +1,14 @@
+{
+  "name": "digitalize/php-sdk",
+  "description": "PHP SDK to interact with Digital'Ize services.",
+  "type": "library",
+  "require": {
+    "ext-curl": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Digitalize\\SDK\\": "src/"
+    }
+  }
+}
